@@ -1,0 +1,17 @@
+{
+  "detection_mode": "双轴",
+  "invert_z": true,
+  "detector": {
+    "fs": 30.102849567885922,
+    "h": 0.5,
+    "H": 1.5,
+    "H2": -2.0,
+    "suppression_window": 1.9982876712328765,
+    "k0": 5,
+    "min_displacement_change": 1.0,
+    "window_size": 2,
+    "w1": 0.7,
+    "w2": 0.1,
+    "w3": 0.2
+  }
+}

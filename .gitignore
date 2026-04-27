@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# 第三方大体积模型（需自行下载安装）
+openpose_bin/
+openpose_model/
+yolov5/
+
+# 原始实验数据
+Bland-Altman-data/
+datacr/
+
+# 冗余副本与临时文件
+neck_throat_track*.py
+neck_throat_v2/main\ copy.py
+neck_throat_v2/qv_realtime_monitor\ copy.py
+neck_throat_v2/qv_realtime_monitor_copy.py
+neck_throat_v2/IMU_collector.py
+neck_throat_v2/IMU_viewer.py
+neck_throat_v2/绘制.py
+neck_throat_v2/results/
+neck_throat_v2/__pycache__/
+
+# 分析/测试脚本（非主程序）
+Bland-Altman.py
+boxplot_hc_pt_combined.py
+boxplot_significance_analysis.py
+calc_all_directions.py
+calc_directions_correct.py
+calc_snr_all.py
+debug_snr.py
+fit_spoon_model_from_pcd.py
+generate_dynamic_material_report.py
+generate_material_data.py
+generate_scale_scores_with_cv_relation.py
+generate_test_data.py
+kde.py
+neck_pointcloud_tracker.py
+neck_track.py
+openpose_with_pointnet++.py
+plot_delta_scatter.py
+qv_realtime_monitor.py
+QV_RT_OUR.py
+run_snr_batch.py
+SNR.py
+SNR_improved.py
+spoon_fit_1120.py
+throat_draw_detect.py
+verify_static.py
+verify_static2.py
+verify_table.py
+visualize_material_kde.py
+
+# 中间产物 - 图片
+*.png
+img/
+
+# 中间产物 - Excel/PDF
+*.xlsx
+*.pdf
+
+# 点云与二进制数据
+*.ply
+*.bin
+*.npy
+
+# 动态生成数据文件
+dynamic_monitoring_600_*.csv
+dynamic_monitoring_600_generated*.csv
+
+# 草稿文本
+历史配置.txt
+热力图说明文字_修订.txt
+
+# bool_pointnet 原始数据（保留result/图片除外）
+bool_pointnet/*.ply
+bool_pointnet/*.bin
+
+# neck_track_split（已整合到neck_throat_v2）
+neck_track_split/
+
+# imu-py（只保留parsers目录，通过imu-py/parsers显式追踪）
+imu-py/commands/
+imu-py/__pycache__/
+imu-py/main.py
+imu-py/utils.py
+
+# 其他
+imu.py
+spoon_model_flowchart.dot
+tracker_config_gui.py
+三种材料分析报告.md
